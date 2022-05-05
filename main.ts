@@ -35,6 +35,4 @@ const bodyBackgroundChange = (target: string):void => {
   body.style.background = target
 }
 
-console.log('test')
-
-console.log('編集五回目')
+// https://www.designgradients.com/
