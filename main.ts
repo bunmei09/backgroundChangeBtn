@@ -34,3 +34,5 @@ for (let i = 0; i < items.length; i++) {
 const bodyBackgroundChange = (target: string):void => {
   body.style.background = target
 }
+
+console.log('test')
