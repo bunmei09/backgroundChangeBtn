@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100%;
+  background: linear-gradient(220.55deg, #8FFF85 0%, #39A0FF 100%);
+}
+
+.skin-palette {
+  min-width: 200px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 7px;
+}
+
+.skin-palette-item {
+  width: 50px;
+  height: 50px;
+  border-radius: 7px;
+  margin-right: 10px;
+}
+
+.skin-palette-item:nth-last-of-type(1) {
+  margin: 0;
+}
+
+.skin-palette-item:hover {
+  cursor: pointer;
+}
